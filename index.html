@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume - Suoh Lee</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        @page {
+            size: A4;
+            margin: 12mm 14mm;
+            background-color: #ffffff;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            color: #222222;
+            line-height: 1.35;
+            font-size: 10pt;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 10pt;
+        }
+        .name {
+            font-size: 20pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin: 0 0 3pt 0;
+            color: #111111;
+        }
+        .contact-info {
+            font-size: 9.5pt;
+            color: #444444;
+            margin-bottom: 3pt;
+        }
+        .contact-info span {
+            margin: 0 5pt;
+        }
+        .links {
+            font-size: 9.5pt;
+        }
+        .links a {
+            color: #1b365d;
+            text-decoration: none;
+        }
+        .links span {
+            margin: 0 5pt;
+            color: #dddddd;
+        }
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #1b365d;
+            text-transform: uppercase;
+            border-bottom: 1.5px solid #1b365d;
+            margin-top: 11pt;
+            margin-bottom: 5pt;
+            padding-bottom: 1px;
+            page-break-after: avoid;
+        }
+        .summary-text {
+            text-align: justify;
+            margin: 0 0 6pt 0;
+        }
+        .item-header-table {
+            width: 100%;
+            margin-bottom: 1pt;
+            page-break-inside: avoid;
+        }
+        .item-header-table td {
+            padding: 0;
+            vertical-align: bottom;
+        }
+        .item-title {
+            font-weight: bold;
+            font-size: 10.5pt;
+            color: #111111;
+            text-align: left;
+        }
+        .item-organization {
+            font-style: italic;
+            color: #444444;
+            font-size: 10pt;
+            text-align: left;
+        }
+        .item-date {
+            text-align: right;
+            color: #444444;
+            font-size: 9.5pt;
+        }
+        .item-location {
+            text-align: right;
+            font-style: italic;
+            color: #666666;
+            font-size: 9.5pt;
+        }
+        ul {
+            margin: 0 0 6pt 0;
+            padding-left: 14pt;
+            text-align: justify;
+        }
+        li {
+            margin-bottom: 3.5pt;
+        }
+        .skills-table {
+            width: 100%;
+            margin-bottom: 2pt;
+        }
+        .skills-table td {
+            padding: 1.5pt 0;
+            vertical-align: top;
+        }
+        .skills-label {
+            font-weight: bold;
+            width: 18%;
+            color: #333333;
+        }
+        .skills-value {
+            width: 82%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="name">Suoh Lee</div>
+        <div class="contact-info">
+            <span>Mobile: +82 10-9427-4287</span> | 
+            <span>Email: lso9903@gmail.com</span> | 
+            <span>Ansan-si, Gyeonggi-do, South Korea</span>
+        </div>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/suoh-lee-0825772a6">linkedin.com/in/suoh-lee-0825772a6</a>
+            <span>•</span>
+            <a href="https://github.com/leesuoh">github.com/leesuoh</a>
+        </div>
+    </div>
+
+    <!-- PROFESSIONAL SUMMARY -->
+    <div class="section-title">Professional Summary</div>
+    <p class="summary-text">
+        Detail-oriented Computer Science graduate with 5 years of rigorous on-ground diagnostic and system troubleshooting experience, specializing in AWS/Azure cloud infrastructure automation. Proven technical capacity in architecting secure multi-tier networks, orchestrating containerized microservices, and deploying automated CI/CD pipelines through award-winning project engineering. Possesses direct professional and academic exposure within the ASEAN market (Singapore and Malaysia), establishing exceptional intercultural communication and a disciplined, root-cause-oriented approach to resolving complex infrastructure incident matrices. Ready to deliver immediate technical and operational value to enterprise DevOps pipelines.
+    </p>
+
+    <!-- TECHNICAL SKILLS -->
+    <div class="section-title">Technical Skills</div>
+    <table class="skills-table">
+        <tr>
+            <td class="skills-label">Cloud Platforms:</td>
+            <td class="skills-value">AWS (EC2, S3, VPC, RDS, IAM, CloudWatch - SAA-C03 Candidate), Azure (Container Apps)</td>
+        </tr>
+        <tr>
+            <td class="skills-label">DevOps & Tools:</td>
+            <td class="skills-value">Docker, Linux (Ubuntu), Bash Scripting, Git, GitHub Actions, Terraform (IaC)</td>
+        </tr>
+        <tr>
+            <td class="skills-label">Programming:</td>
+            <td class="skills-value">Python, FastAPI, SQL, Java, C++</td>
+        </tr>
+    </table>
+
+    <!-- PROJECTS & KEY ACHIEVEMENTS -->
+    <div class="section-title">Key Projects & Awards</div>
+    
+    <table class="item-header-table">
+        <tr>
+            <td class="item-title">AI-Driven Supplier Risk Management Platform ("SmartChain")</td>
+            <td class="item-date">Sep 2025 – Mar 2026</td>
+        </tr>
+        <tr>
+            <td class="item-organization">KT Aivle School (Grand Prize Capstone Project)</td>
+            <td class="item-location">Seoul, South Korea</td>
+        </tr>
+    </table>
+    <ul>
+        <li><strong>Grand Prize (2nd Place Nationwide)</strong> among competitive technology cohorts and received the <strong>Leadership Award</strong> for outstanding engineering governance and end-to-end infrastructure delivery.</li>
+        <li>Served as <strong>Infrastructure Leader</strong>, architecting and provisioning a resilient multi-tier cloud topology on Azure Container Apps that integrated a React 18 frontend, Spring Boot 3.2 backend, PostgreSQL 16 database, and high-throughput FastAPI AI nodes.</li>
+        <li>Engineered automated <strong>CI/CD pipelines via GitHub Actions</strong>, establishing zero-secret infrastructure environments utilizing Azure Key Vault and secure object storage tiers via Azure Blob Storage.</li>
+        <li>Designed enterprise-grade secure networking layers, structuring isolated virtual networks, custom subnets, and routing protocols to safely handle intensive multimodal AI workloads (Clova OCR, GPT-5.1 Vision, YOLO26n).</li>
+        <li>Formulated an infrastructure capable of managing compliance verification for <strong>3,354 target suppliers</strong>, successfully reducing manual verification lead times by <strong>90% (from 2 days down to 30 minutes)</strong> while achieving a <strong>95%+ automated data consistency guarantee</strong>.</li>
+    </ul>
+
+    <!-- PROFESSIONAL EXPERIENCE -->
+    <div class="section-title">Professional Experience</div>
+    
+    <table class="item-header-table">
+        <tr>
+            <td class="item-title">Sihwa Car Center</td>
+            <td class="item-date">Sep 2022 – Present</td>
+        </tr>
+        <tr>
+            <td class="item-organization">Lead Systems Technician & Troubleshooter</td>
+            <td class="item-location">Siheung, South Korea</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Diagnosed, isolated, and resolved complex electrical, mechanical, and sensor-driven electronic fault matrices across 1,000+ vehicles using advanced diagnostic telemetry and telemetry data analysis.</li>
+        <li>Developed a highly structured root-cause analysis framework to handle system dependencies, directly mapping physical system troubleshooting principles to software and cloud infrastructure debugging logic.</li>
+        <li>Optimized on-ground workshop dispatch operations and asset tracking, decreasing average diagnostic latency by 15%.</li>
+    </ul>
+
+    <table class="item-header-table">
+        <tr>
+            <td class="item-title">IMACADEMY</td>
+            <td class="item-date">Jul 2025 – Aug 2025</td>
+        </tr>
+        <tr>
+            <td class="item-organization">IT Infrastructure & Operations Intern</td>
+            <td class="item-location">Kuala Lumpur, Malaysia</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Assisted in enterprise IT resource provisioning, internal network setups, and staging software configurations.</li>
+        <li>Collaborated within a multicultural, agile development environment to audit and optimize user management workflows.</li>
+    </ul>
+
+    <table class="item-header-table">
+        <tr>
+            <td class="item-title">Nike</td>
+            <td class="item-date">Sep 2021 – Sep 2022</td>
+        </tr>
+        <tr>
+            <td class="item-organization">Retail Operations Specialist</td>
+            <td class="item-location">Seoul, South Korea</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Managed complex inventory data tracking and high-volume supply chain logistics under strict corporate guidelines.</li>
+    </ul>
+
+    <table class="item-header-table">
+        <tr>
+            <td class="item-title">PMP Language Academy</td>
+            <td class="item-date">Sep 2019 – Sep 2021</td>
+        </tr>
+        <tr>
+            <td class="item-organization">Administrative & Communications Coordinator</td>
+            <td class="item-location">Seoul, South Korea</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Coordinated cross-functional workflows, data archiving, and bilingual client communications in a fast-paced environment.</li>
+    </ul>
+
+    <!-- EDUCATION -->
+    <div class="section-title">Education</div>
+    
+    <table class="item-header-table">
+        <tr>
+            <td class="item-title">Konkuk University</td>
+            <td class="item-date">Feb 2019 – Feb 2026</td>
+        </tr>
+        <tr>
+            <td class="item-organization">Bachelor of Science in Computer Science</td>
+            <td class="item-location">Seoul, South Korea</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Key Focus: Cloud Computing, Data Structures & Algorithms, Network Architecture, Systems Troubleshooting.</li>
+    </ul>
+
+    <table class="item-header-table">
+        <tr>
+            <td class="item-title">PSB Academy</td>
+            <td class="item-date">Jul 2024 – Aug 2024</td>
+        </tr>
+        <tr>
+            <td class="item-organization">Academic Exchange Program</td>
+            <td class="item-location">Singapore</td>
+        </tr>
+    </table>
+    <ul>
+        <li>Engaged in multicultural business communication, building deep contextual familiarity with Singapore's professional landscape.</li>
+    </ul>
+
+</body>
+</html>
